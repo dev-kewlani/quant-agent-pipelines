@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+dist/
+__pycache__/
+*.pyc
+
+# Data files (too large / proprietary)
+*.parquet
+*.pkl
+*.csv
+*.h5
+*.npy
+data/
+outputs/
+models/
+
+# Environment
+.env
+.env.local
+*.conda/
+.conda/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials (never commit)
+.credentials.json
+scriptsExecuted/
