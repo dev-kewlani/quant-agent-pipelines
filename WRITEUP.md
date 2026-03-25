@@ -16,13 +16,13 @@ I build quantitative research systems using long-running AI agent sessions. The 
 |--------|-------|
 | Ann. Return | 27.19% |
 | Ann. Vol | 12.48% |
-| Sharpe | 2.18 |
+| Sharpe | 1.84 |
 | Win Rate | 87% |
 | FF5+Mom Alpha | 25.00% (t=9.75) |
 | R-squared vs factors | 0.27 |
 | Max Drawdown | -14.3% |
 
-92% of returns are alpha. Only 8% explained by known factors.
+92% of returns are alpha. Only 8% explained by known factors. (Capacity yet to be determined)
 
 **What the model actually does**: It's a contrarian/mean-reversion signal. The only significant factor loading is momentum at -0.23 (t=-3.47). XGBoost learns which mean-reversion setups will work by combining L3 acceleration of fundamental valuation changes with technical context. A simple linear reversal captures the Mom loading; the remaining 25% alpha is the ML model distinguishing turnarounds from value traps.
 
@@ -138,6 +138,6 @@ The key finding: 3rd-order derivatives of cross-asset correlations (acceleration
 
 I've been building these systems on nights and weekends while working my primary role. The agent-driven workflow lets me move fast — the cross-sectional pipeline (feature engineering across 7 data chunks, label construction, walk-forward training, 756-strategy exhaustive search, 4 neutralization methods) was built and backtested in a single session, however, the ideas they've been brainstorming themselves since probably the past year and I'm still understanding the nuances of this strategy but I want to trade my book live soon and well - this is something that feels like the start to Something.
 
-I'm interested in doing this full-time: running long-running agent systems for quant research, with the domain knowledge to direct the research design and the engineering chops to make it run at scale (GPU computing, terabyte-scale data, real-time systems).
+I'm interested in doing this full-time: running long-running agent systems for quant research, with the domain knowledge to direct the research design and the engineering chops to make it run at scale (start with cross  stock prediction problems to Relative Vol/Index vs Single Stock Vol prediction problems).
 
 Happy to do a screen-share walkthrough of any of the above.
