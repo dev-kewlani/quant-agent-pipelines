@@ -136,7 +136,7 @@ The key finding: 3rd-order derivatives of cross-asset correlations (acceleration
 
 ## What I'm Looking For
 
-I've been building these systems on nights and weekends while working my primary role. The agent-driven workflow lets me move fast — the cross-sectional pipeline (feature engineering across 7 data chunks, label construction, walk-forward training, 756-strategy exhaustive search, 4 neutralization methods) was built and backtested in a single session.
+I've been building these systems on nights and weekends while working my primary role. The agent-driven workflow lets me move fast — the cross-sectional pipeline (feature engineering across 7 data chunks, label construction, walk-forward training, 756-strategy exhaustive search, 4 neutralization methods) was built and backtested in a single session, however, the ideas they've been brainstorming themselves since probably the past year and I'm still understanding the nuances of this strategy but I want to trade my book live soon and well - this is something that feels like the start to Something.
 
 I'm interested in doing this full-time: running long-running agent systems for quant research, with the domain knowledge to direct the research design and the engineering chops to make it run at scale (GPU computing, terabyte-scale data, real-time systems).
 
