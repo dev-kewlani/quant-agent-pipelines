@@ -83,10 +83,7 @@ Full-stack TypeScript: React 19 + Express + WebSocket. Pluggable data providers 
 
 **The Alpha Source:** XGBoost learns which mean-reversion setups will work using non-linear interactions between fundamentals (valuation, profitability) and technicals (RSI, vol, momentum). A simple linear reversal captures the -0.23 Mom loading, but the remaining 25% alpha comes from distinguishing genuine turnarounds from value traps.
 
-**Top Feature Drivers:**
-- `xs_L3_chg1_L2_chg5_pe_op_basic` -- 22% of IC by itself (short-term PE acceleration, the reversal signal)
-- `xs_ps` (cross-sectional price-to-sales rank) -- 11% of IC
-- `log_mktcap x ps` interaction is the strongest synergistic pair
+**Top Feature Drivers:** L3 acceleration of fundamental valuation changes (dominant IC contributor), cross-sectional valuation ranks, and fundamental x size interactions. The signal is dominated by 2nd/3rd derivative features, not raw values.
 
 **Stability:** All 5 sub-periods (2004-2024) positive Sharpe (1.54-2.71). 100% of rolling 3-year windows have alpha > 0 with t > 2.
 

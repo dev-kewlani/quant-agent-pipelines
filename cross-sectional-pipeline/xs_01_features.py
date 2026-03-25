@@ -44,8 +44,8 @@ L0_FUNDAMENTALS = [
     'curr_ratio', 'quick_ratio', 'cash_ratio',
 ]
 L2_KEY_FEATURES = [
-    'ret', 'vol', 'log_mktcap', 'ps', 'pe_op_basic', 'roe', 'de_ratio',
-    'rsi_14', 'ret_std_22', 'mom_22d', 'mom_252d', 'atr_pct_22', 'price_vs_ma_200',
+    # Feature selection for L2/L3 derivatives — redacted.
+    # In production: ~13 features selected from L0+L1 based on IC screening.
 ]
 CHANGE_HORIZONS = [1, 5, 22, 66]
 ROLL_WINDOWS_SHORT = [22, 66]
